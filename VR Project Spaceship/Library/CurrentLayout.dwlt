@@ -70,8 +70,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 885, y: 498}
-  m_MaxSize: {x: 16010, y: 14048}
+  m_MinSize: {x: 887, y: 498}
+  m_MaxSize: {x: 16012, y: 14048}
   vertical: 0
   controlID: 12
 --- !u!114 &4
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 608, y: 498}
-  m_MaxSize: {x: 12008, y: 14048}
+  m_MinSize: {x: 610, y: 498}
+  m_MaxSize: {x: 12010, y: 14048}
   vertical: 1
-  controlID: 1016
+  controlID: 13
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,10 +267,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 573
-  m_MinSize: {x: 608, y: 224}
-  m_MaxSize: {x: 12008, y: 4024}
+  m_MinSize: {x: 610, y: 224}
+  m_MaxSize: {x: 12010, y: 4024}
   vertical: 0
-  controlID: 1017
+  controlID: 130
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,21 +362,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts/Player/Controls
   m_ViewMode: 1
   m_StartGridSize: 82
   m_LastFolders:
-  - Assets
+  - Assets/Scripts/Player/Controls
   m_LastFoldersGridSize: 82
   m_LastProjectPath: D:\Nils2\Documents\rubika\projets unity\VR-TEST-SPACESHIP\VR
     Project Spaceship
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: c22a0000
-    m_LastClickedID: 10946
-    m_ExpandedIDs: 00000000c22a00002e2b0000c22b0000e62b00000c2c0000662c0000b02c00001c2d0000402d0000f42d0000322f0000902f0000123000008a300000223100008c310000f43100000e330000c0340000c434000014350000a63600001e37000000ca9a3b
+    scrollPos: {x: 0, y: 271}
+    m_SelectedIDs: 282f0000
+    m_LastClickedID: 12072
+    m_ExpandedIDs: 00000000b82a0000242b0000b82b0000dc2b0000022c00005c2c0000a62c0000122d0000362d0000ea2d0000282f0000862f000008300000803000001831000082310000ea31000004330000b6340000ba3400000a3500009c3600001437000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c22a00002e2b0000c22b0000e62b00000c2c0000662c0000b02c00001c2d0000402d0000f42d0000322f0000902f0000123000008a300000223100008c310000f4310000c0340000c4340000a63600001e370000
+    m_ExpandedIDs: 00000000b82a0000242b0000b82b0000dc2b0000022c00005c2c0000a62c0000122d0000362d0000ea2d0000282f0000862f000008300000803000001831000082310000ea31000004330000b6340000ba3400000a3500009c36000014370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,9 +523,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 184f0000
-      m_LastClickedID: 20248
-      m_ExpandedIDs: 42e2ffffd6e8ffff52f8ffffb8fbffffde380000ac4d0000
+      m_SelectedIDs: ee270000
+      m_LastClickedID: 0
+      m_ExpandedIDs: d6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
