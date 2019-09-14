@@ -31,34 +31,34 @@ public class TEST_PlayerController : MonoBehaviour
 
 
         #region rotations controls
-        if (Input.GetKey(KeyCode.A)) // rotate up
+        if (Input.GetKey(KeyCode.Z)) // rotate up
         {
             rig.AddRelativeTorque(Vector3.left * RotateUpDownSpeed);
         }
 
-        if (Input.GetKey(KeyCode.Q)) // rotate down
+        if (Input.GetKey(KeyCode.S)) // rotate down
         {
             rig.AddRelativeTorque(Vector3.right * RotateUpDownSpeed);
         }
 
-        if (Input.GetKey(KeyCode.Z)) // lean left
+        if (Input.GetKey(KeyCode.Q)) // lean left
         {
             rig.AddRelativeTorque(Vector3.forward * LeanLeftRightSpeed);
         }
 
-        if (Input.GetKey(KeyCode.S)) // lean right
+        if (Input.GetKey(KeyCode.D)) // lean right
         {
             rig.AddRelativeTorque(Vector3.back * LeanLeftRightSpeed);
         }
 
-        if (Input.GetKey(KeyCode.E)) // rotate left
-        {
-            rig.AddRelativeTorque(Vector3.up * RotateLeftRightSpeed);
-        }
-
-        if (Input.GetKey(KeyCode.D)) // rotate right
+        if (Input.GetKey(KeyCode.A)) // rotate left
         {
             rig.AddRelativeTorque(Vector3.down * RotateLeftRightSpeed);
+        }
+
+        if (Input.GetKey(KeyCode.E)) // rotate right
+        {
+            rig.AddRelativeTorque(Vector3.up * RotateLeftRightSpeed);
         }
         #endregion
 

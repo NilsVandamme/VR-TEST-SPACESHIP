@@ -312,6 +312,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a144b2b1d09468488d54fb1539e1841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ForwardMoveSpeed: 2
+  BackMoveSpeed: 2
+  LeftRightMoveSpeed: 2
+  RotateUpDownSpeed: 2
+  LeanLeftRightSpeed: 2
+  RotateLeftRightSpeed: 2
+  ResetRotationSpeed: 0.05
 --- !u!54 &589104245
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -433,6 +440,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a144b2b1d09468488d54fb1539e1841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ForwardMoveSpeed: 0
+  BackMoveSpeed: 0
+  LeftRightMoveSpeed: 0
+  RotateUpDownSpeed: 0
+  LeanLeftRightSpeed: 0
+  RotateLeftRightSpeed: 0
+  ResetRotationSpeed: 0
 --- !u!54 &680101365
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -476,22 +490,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestCockpit
       objectReference: {fileID: 0}
-    - target: {fileID: 2300004, guid: 797245f05b6201a478a7237989290ad8, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a685bbc9867e30943ae84214d34e22b4, type: 2}
-    - target: {fileID: 2300006, guid: 797245f05b6201a478a7237989290ad8, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a685bbc9867e30943ae84214d34e22b4, type: 2}
-    - target: {fileID: 2300008, guid: 797245f05b6201a478a7237989290ad8, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8c2741678921ad640b45e98a262a7181, type: 2}
-    - target: {fileID: 2300000, guid: 797245f05b6201a478a7237989290ad8, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a685bbc9867e30943ae84214d34e22b4, type: 2}
     - target: {fileID: 400014, guid: 797245f05b6201a478a7237989290ad8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.27
@@ -536,6 +534,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 797245f05b6201a478a7237989290ad8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a685bbc9867e30943ae84214d34e22b4, type: 2}
+    - target: {fileID: 2300006, guid: 797245f05b6201a478a7237989290ad8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a685bbc9867e30943ae84214d34e22b4, type: 2}
+    - target: {fileID: 2300008, guid: 797245f05b6201a478a7237989290ad8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c2741678921ad640b45e98a262a7181, type: 2}
+    - target: {fileID: 2300000, guid: 797245f05b6201a478a7237989290ad8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a685bbc9867e30943ae84214d34e22b4, type: 2}
     - target: {fileID: 2300010, guid: 797245f05b6201a478a7237989290ad8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
