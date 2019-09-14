@@ -10,6 +10,7 @@ public class TEST_PlayerController : MonoBehaviour
     public float ForwardMoveSpeed;
     public float BackMoveSpeed;
     public float LeftRightMoveSpeed;
+    public float UpDownMoveSpeed;
 
     [Header("Rotation Speed")]
     public float RotateUpDownSpeed;
@@ -84,13 +85,23 @@ public class TEST_PlayerController : MonoBehaviour
             rig.AddRelativeForce(Vector3.right * LeftRightMoveSpeed);
         }
 
+        if (Input.GetKey(KeyCode.R)) // Move up
+        {
+            rig.AddRelativeForce(Vector3.up * UpDownMoveSpeed);
+        }
+
+        if (Input.GetKey(KeyCode.F)) // Move down
+        {
+            rig.AddRelativeForce(Vector3.down * UpDownMoveSpeed);
+        }
+
         #endregion
 
         #region Reset controls
 
         if (Input.GetKey(KeyCode.W)) // Smoothly reset rotation
         {
-            rig.rotation = Quaternion.Lerp(rig.rotation, Quaternion.identity, ResetRotationSpeed);
+            rig.rotation = Quaternion.Lerp(rig.rotation, Quaternion.Euler(0, rig.rotation.eulerAngles.y ,0), ResetRotationSpeed);
         }
 
         #endregion
